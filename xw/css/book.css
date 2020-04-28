@@ -1,0 +1,53 @@
+/* book css */
+
+
+/**** css of index ****/
+body{background:#FFFFFF;
+	background-color: 	#87CEEB;
+	font-family:'Times New Roman',serif;
+	margin-left:auto;margin-right:auto; /*设置为auto在移动端显示更友好*/
+	width:1000px;  /*width大小固定后,移动端界面主页的大小不会变化*/
+	position:relative;}
+
+
+.motto{font-style:italic;font-weight: bold;float: right;}
+
+a:link, a:visited{color: #005FA9;text-decoration: none;}
+a:hover{text-decoration: underline}
+
+h1{
+ font-family:'Times New Roman',cursive;
+ text-align: center;
+ font-weight: bold;
+ font-size: 200%;
+ margin: 0px;
+ padding: 5px;
+}
+h2{
+	font-family: 'Times New Roman',cursive;
+}
+@media(max-width:960px){    /*针对移动端的适配*/
+h1{
+ text-align: left;
+ font-weight: bold;
+ font-size: 200% ;
+ margin: 0px;
+ padding: 0px;
+}
+}
+
+/**** content css ****/
+.pic{
+	float: left;
+	width: 40%;
+	height: 300px;
+	padding: 20px 10px;
+}
+.profile{
+	float: left;
+	width: 50%;
+	height: 300px;
+	padding: 20px 10px;
+	font-weight: bold;
+}
+   

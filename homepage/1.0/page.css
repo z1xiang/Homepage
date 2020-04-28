@@ -1,0 +1,53 @@
+/**** body css ****/
+body{background:#FFFFFF;
+	font-family:'Times New Roman','Microsoft YaHei', sans-serif;
+	margin-left:auto;margin-right:auto; /*设置为auto在移动端显示更友好*/
+	width:1000px;  /*width大小固定后,移动端界面主页的大小不会变化*/
+	position:relative;}
+
+
+/**** layout css ****/
+.left{float:left;width:25%}
+.right{float:right;width:65%}
+
+
+/**** font css ****/
+.motto{font-style:italic;font-weight: bold;float: right;}
+.bold{font-weight: bold;}
+.date{font-style: italic;font-size:smaller;}
+
+
+/**** a tag css ****/
+a:link, a:visited{color: #005FA9;text-decoration: none;}
+a:hover{text-decoration: underline}
+
+
+/**** h tag css ****/
+h1{
+ font-family:'Times New Roman',cursive;
+ text-align: center;
+ font-weight: bold;
+ font-size: 200%;
+ margin: 0px;
+ padding: 5px;
+}
+
+h2{
+	font-family: 'Times New Roman',cursive;
+}
+@media(max-width:960px){    /*针对移动端的适配*/
+h1{
+ text-align: left;
+ font-weight: bold;
+ font-size: 200% ;
+ margin: 0px;
+ padding: 0px;
+}
+}
+
+/**** footer css ****/
+.foot{
+	text-align: center;
+	clear: both;
+	font-size: smaller;
+}

@@ -1,0 +1,83 @@
+/**** body css ****/
+body{background:#FFFFFF;
+	font-family:'Times New Roman','Microsoft YaHei', sans-serif;
+	width:60%; /*页面整体宽度为浏览器界面的60%*/
+	margin:20px auto;
+	position:relative;
+}
+
+
+/**** layout css ****/
+.photo {float:left;width:30%;}
+
+.profile{
+	float:left;width:40%;
+}
+.info {
+	background-color: #f8f8f8;
+	border: 1px solid #ccc;
+	font-size: 13px;
+	line-height: 19px;
+	overflow: auto;
+	padding: 6px 10px;
+	border-radius: 3px;
+}
+
+/**** font css ****/
+.bold{font-weight: bold;}
+.date{font-style: italic;font-size:smaller;}
+
+
+/**** a tag css ****/
+a:link, a:visited{color: #005FA9;text-decoration: none;}
+a:hover{text-decoration: underline}
+
+
+/**** h tag css ****/
+h1 {
+	font-size: 28px;
+	color: #000;
+	margin:0px;
+}
+
+
+h2 {
+	font-size: 24px;
+	border-bottom: 1px solid #ccc;
+	color: #000;
+}
+
+/**** footer css ****/
+.foot{
+	text-align: center;
+	clear: both;
+	font-size: smaller;
+}
+
+/**** others css ****/
+hr{
+    border: none;
+	height: 1px;
+	background-color: #ccc;
+}
+
+/**** 响应式布局 ****/
+@media(max-width:1200px){  /*当窗口小于1200px时，调整页面整体宽度为浏览器界面的80%*/
+body{background:#FFFFFF;
+	font-family:'Times New Roman','Microsoft YaHei', sans-serif;
+	width:80%;
+	margin:20px auto;
+	position:relative;
+}
+}
+
+@media(max-width:960px){  /*当窗口小于960px时，调整页面整体宽度为浏览器界面的90%*/
+.photo {display: none;}
+body{background:#FFFFFF;
+	font-family:'Times New Roman','Microsoft YaHei', sans-serif;
+	width:90%;
+	margin:20px auto;
+	position:relative;
+}
+}
+
